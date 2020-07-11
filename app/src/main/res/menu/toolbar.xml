@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:id="@+id/newNote"
+            android:icon="@drawable/ic_add_white_24dp"
+            android:title="@string/title_activity_new_note"
+            app:showAsAction="ifRoom"/>
+    <item
+            android:id="@+id/leaveApp"
+            android:icon="@drawable/ic_exit_to_app_white_24dp"
+            android:title="@string/leave"
+            app:showAsAction="ifRoom"/>
+</menu>
